@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Pseudo</title>
+    <style>
+        h1:hover {
+            background-color: aqua;
+            /* padding: 12px; */
+            /* margin: 12px 20px; */
+        }
+
+        .btn-hover {
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+            margin-right: 20px;
+            padding: 6px 10px;
+            background-color: khaki;
+            transition: 0.3s ease-out;
+        }
+
+        .btn-hover:hover {
+            background-color: darkblue;
+            color: whitesmoke;
+            /* font-family: 'Courier New', Courier, monospace; */
+            /* font-weight: bold; */
+        }
+
+        .password-focus:focus {
+            color: blue;
+            /* padding: 10px 14px; */
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        ul li:first-child {
+            background-color: chocolate;
+            padding: 12px 14px;
+        }
+
+        ul li:last-child {
+            background-color: crimson;
+            color: white;
+            padding: 8px 6px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        /* n = 0,1,2,3,4,5,6,7,8......... */
+        ol li:nth-child(2n){
+            background-color: salmon;
+            padding: 10px 6px;
+            margin: 25px 6px;
+        }
+        ol li:nth-child(2n+1)::after{
+            content: 'Tui Sudhu amar';
+            background-color: blueviolet;
+            padding: 12px 14px;
+            margin-left: 20px;
+        }
+        h4::before{
+            content: 'Developer hote hobe, taka income korte hobe';
+            background-color: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I am learning Web development with Jhankar Mahbub</h1>
+    <a class="btn-hover">Buy Now</a>
+    <a class="btn-hover">Cart Now</a>
+    <input type="text">
+    <input class="password-focus" type="password" name="" id="">
+    <input type="email" name="" id="">
+    <br>
+    <br>
+    <hr>
+    <a href="https://www.linkedin.com/in/-devzahid/">Linkedin</a>
+    <a href="https://www.weebly.com/?lang=en">new website</a>
+    <a href="https://www.instagram.com/zahid_juel/">Instagram</a>
+
+    <ul>
+        <li>Pinkey Chowdhury</li>
+        <li>Amar Sonapakhi</li>
+        <li>Amar Fulkoli</li>
+        <li>Misti Pakhi</li>
+        <li>Moyna pakhi</li>
+        <li>Jhumka</li>
+        <li>Petnii</li>
+        <li>Fulpori</li>
+        <li>Valaobashar pakhi</li>
+        <li>Golapi</li>
+        <li>Sundori</li>
+        <li>Aamr kolija</li>
+    </ul>
+    <ol>
+        <li>Pinkey Chowdhury-1</li>
+        <li>Pinkey Chowdhury-2</li>
+        <li>Pinkey Chowdhury-3</li>
+        <li>Pinkey Chowdhury-4</li>
+        <li>Pinkey Chowdhury-5</li>
+        <li>Pinkey Chowdhury-6</li>
+        <li>Pinkey Chowdhury-7</li>
+        <li>Pinkey Chowdhury-8</li>
+        <li>Pinkey Chowdhury-9</li>
+        <li>Pinkey Chowdhury-10</li>
+        <li>Pinkey Chowdhury-11</li>
+        <li>Pinkey Chowdhury-12</li>
+        <li>Pinkey Chowdhury-13</li>
+        <li>Pinkey Chowdhury-14</li>
+        <li>Pinkey Chowdhury-15</li>
+        <li>Pinkey Chowdhury-16</li>
+        <li>Pinkey Chowdhury-17</li>
+        <li>Pinkey Chowdhury-18</li>
+        <li>Pinkey Chowdhury-19</li>
+        <li>Pinkey Chowdhury-20</li>
+    </ol>
+    <h4>Pinkey ke Biyea korte hobe</h4>
+</body>
+
+</html>
